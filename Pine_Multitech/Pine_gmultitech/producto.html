@@ -16,6 +16,10 @@
             <a class="navbar-brand" href="#">
                 <img src="img/nav-logo.png" />
             </a>
+            <div class="nav navbar-nav" id="contact-mobile">
+                <p class="text-nav"><i class="glyphicon glyphicon-phone"></i>Tel&eacute;fono: 1111-2222</p>
+                <p class="text-nav"><i class="glyphicon glyphicon-envelope"></i>E-Mail: info@compania.com</p>
+            </div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="nav">
@@ -72,7 +76,18 @@
                 <div class="col-md-4 col-sm-6">
 
                     <div class="panel panel-default">
-                        <div class="panel-body">A Basic Panel</div>
+                        <div class="panel-body">
+                            <table class="table borderless">
+                                <tr class="borderless tags-product">
+                                    <td><a href="#"> tipo 1</a></td>
+                                    <td><a href="#"> tipo 2</a></td>
+                                    <td><a href="#"> tipo 2</a></td>
+                                </tr>
+
+
+                            </table>
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -119,39 +134,7 @@
                     <br>
                     <!-- Page styles -->
 
-                    <div id="contact-form">
-                        <a class="btn2 grey lbp-inline-link-3 cboxElement" link="#">Consúltenos sobre este producto</a>
-                        <div style="display:none; clear:none;">
-                            <div id="lbp-inline-href-3" style="padding:10px; background:#fff; text-align:left;">
-                                <h2>Envíenos su consulta</h2>
-                                <form method="post" id="cntctfrm_contact_form" action="http://www.estabilizadores-avr.com.ar/?product=estabilizador-de-tension-1500va-monofasico-salidas-2-x-220v-iram-2-x-220v-steck" enctype="multipart/form-data"><div style="text-align: left; padding-top: 5px;">
-                                    <label for="cntctfrm_contact_name">Nombre:<span class="required"> *</span></label>
-                                </div><div style="text-align: left;">
-                                    <input class="text" size="40" value="" name="cntctfrm_contact_name" id="cntctfrm_contact_name" style="text-align: left; margin: 0;" type="text">
-                                </div>
 
-                                    <div style="text-align: left;">
-                                        <label for="cntctfrm_contact_email">E-mail:<span class="required"> *</span></label>
-                                    </div><div style="text-align: left;">
-                                        <input class="text" size="40" value="" name="cntctfrm_contact_email" id="cntctfrm_contact_email" style="text-align: left; margin: 0;" type="text">
-                                    </div>
-                                    <div style="text-align: left;">
-                                        <label for="cntctfrm_contact_phone">Teléfono:<span class="required"> *</span></label>
-                                    </div><div style="text-align: left;">
-                                        <input class="text" size="40" value="" name="cntctfrm_contact_phone" id="cntctfrm_contact_phone" style="text-align: left; margin: 0;" type="text">
-                                    </div><div style="text-align: left;">
-                                        <label for="cntctfrm_contact_message">Mensaje:<span class="required"> *</span></label>
-                                    </div><div style="text-align: left;">
-                                        <textarea rows="7" cols="30" name="cntctfrm_contact_message" id="cntctfrm_contact_message"></textarea>
-                                    </div><div style="text-align: left; padding-top: 8px;">
-                                        <input value="send" name="cntctfrm_contact_action" type="hidden"><input value="Version: 3.30" type="hidden">
-                                        <input value="en" name="cntctfrm_language" type="hidden">
-                                        <input value="Enviar Mensaje" class="btn2 skyBlue size-m" type="submit">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                     <!-- preload the images -->
                     <div style="display:none">
                         <img src="http://www.estabilizadores-avr.com.ar/wp-content/plugins/product-enquiry-for-woocommerce/img/contact/loading.gif" alt="">
@@ -167,6 +150,7 @@
                             </li>
 
                         </ul>
+                    </div>
 
                         <div style="display: block;" class="panel entry-content" id="tab-additional_information">
 
@@ -219,17 +203,46 @@
                                 </tr>
 
 
-                                </tbody></table>			</div>
+                                </tbody></table>
+                        </div>
+                        <div id="contact-form">
+                            <a class="btn2 grey lbp-inline-link-3 cboxElement">Consúltenos sobre este producto</a>
+                            <div>
+                                <div id="lbp-inline-href-3" style="padding:10px; background:#fff; text-align:left;">
+                                    <h2>Envíenos su consulta</h2>
+                                    <form method="post" id="cntctfrm_contact_form" action="http://www.estabilizadores-avr.com.ar/?product=estabilizador-de-tension-1500va-monofasico-salidas-2-x-220v-iram-2-x-220v-steck" enctype="multipart/form-data"><div style="text-align: left; padding-top: 5px;">
+                                        <label for="cntctfrm_contact_name">Nombre:<span class="required"> *</span></label>
+                                    </div><div style="text-align: left;">
+                                        <input class="text" size="40" value="" name="cntctfrm_contact_name" id="cntctfrm_contact_name" style="text-align: left; margin: 0;" type="text">
+                                    </div>
 
-                    </div>
-
-
-
-
+                                        <div style="text-align: left;">
+                                            <label for="cntctfrm_contact_email">E-mail:<span class="required"> *</span></label>
+                                        </div><div style="text-align: left;">
+                                            <input class="text" size="40" value="" name="cntctfrm_contact_email" id="cntctfrm_contact_email" style="text-align: left; margin: 0;" type="text">
+                                        </div>
+                                        <div style="text-align: left;">
+                                            <label for="cntctfrm_contact_phone">Teléfono:<span class="required"> *</span></label>
+                                        </div><div style="text-align: left;">
+                                            <input class="text" size="40" value="" name="cntctfrm_contact_phone" id="cntctfrm_contact_phone" style="text-align: left; margin: 0;" type="text">
+                                        </div><div style="text-align: left;">
+                                            <label for="cntctfrm_contact_message">Mensaje:<span class="required"> *</span></label>
+                                        </div><div style="text-align: left;">
+                                            <textarea rows="7" cols="30" name="cntctfrm_contact_message" id="cntctfrm_contact_message"></textarea>
+                                        </div><div style="text-align: left; padding-top: 8px;">
+                                            <input value="send" name="cntctfrm_contact_action" type="hidden"><input value="Version: 3.30" type="hidden">
+                                            <input value="en" name="cntctfrm_language" type="hidden">
+                                            <input value="Enviar Mensaje" class="btn2 skyBlue size-m" type="submit">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                 </div>
+            </div>
         </div>
 
-</div>
+
 
 
 
